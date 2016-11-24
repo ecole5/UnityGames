@@ -1,0 +1,153 @@
+fileFormatVersion: 2
+guid: 023c19190edea8f43a37fc76d9bd630f
+timeCreated: 1459457424
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Cards_0
+    21300002: Cards_1
+    21300004: Cards_2
+    21300006: Cards_3
+    21300008: Cards_4
+    21300010: Cards_5
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 5, y: 280, z: 499, w: 6}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Cards_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 284
+        width: 238
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -119, y: 136}
+        - {x: -119, y: -136}
+        - {x: 119, y: -136}
+        - {x: 119, y: 136}
+    - name: Cards_1
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 284
+        width: 238
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -119, y: 136}
+        - {x: -119, y: -136}
+        - {x: 119, y: -136}
+        - {x: 119, y: 136}
+    - name: Cards_2
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 284
+        width: 238
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -119, y: 136}
+        - {x: -119, y: -136}
+        - {x: 119, y: -136}
+        - {x: 119, y: 136}
+    - name: Cards_3
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 6
+        width: 238
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -119, y: 136}
+        - {x: -119, y: -136}
+        - {x: 119, y: -136}
+        - {x: 119, y: 136}
+    - name: Cards_4
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 7
+        width: 238
+        height: 271
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -119, y: 135.5}
+        - {x: -119, y: -135.5}
+        - {x: 119, y: -135.5}
+        - {x: 119, y: 135.5}
+    - name: Cards_5
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 6
+        width: 238
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -119, y: 136}
+        - {x: -119, y: -136}
+        - {x: 119, y: -136}
+        - {x: 119, y: 136}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
