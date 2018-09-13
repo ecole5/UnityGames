@@ -42,7 +42,6 @@ public class GameData: MonoBehaviour
 
     //Load data from server (this will be issued by other objects)
 	public void loadData(){
-   
 		StartCoroutine (loadServerData ()); //start the coroutine for download
 	}
 
@@ -57,6 +56,7 @@ public class GameData: MonoBehaviour
 		//Now break apart objects
 		char delimiter= '#';
 		string[] parts = result.text.Split(delimiter);
+
 
 		//Undo Serialization
 		space = JsonUtility.FromJson<SpacePrefs>(parts[0]);
@@ -86,7 +86,7 @@ public class GameData: MonoBehaviour
 
 	}
     
-     /* //Function to reset the history objects, use carefully
+     /*Function to reset the history objects, use carefully
 	public void resetUserData(){	
 		StartCoroutine (saveDataServer (new SpacePrefs(), new PortalPrefs(), new History(), new History(), new History(), new History(), new History() ));
 	}*/

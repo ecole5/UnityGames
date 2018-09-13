@@ -1,6 +1,6 @@
 <?php
     //Establish conection to elcstone_db
-        $db = new mysqli("108.167.189.18", "elcstone_admin", "password", "elcstone_db");
+        $db = new mysqli("127.0.0.1", "admin", "password", "ugames");
 
 	//Check connection
 	if ($db -> connect_error){ //if error attribute true

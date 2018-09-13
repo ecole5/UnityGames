@@ -1,0 +1,20 @@
+Create database games;
+
+CREATE TABLE users(
+  username varchar(255),
+  password varchar(255),
+  tries int DEFAULT 3,
+  spacePrefs LONGTEXT,
+  portalPrefs LONGTEXT
+  );
+
+CREATE TABLE history2(
+  portal LONGTEXT ,
+  space LONGTEXT  ,
+  ninja LONGTEXT ,
+  dino LONGTEXT ,
+  apple LONGTEXT 
+  );
+
+INSERT INTO history2(portal, space, ninja, dino, apple)
+VALUES (null,null,null,null,null);

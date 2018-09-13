@@ -10,7 +10,7 @@ public class DropDown : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     // Use this for initialization
     void Awake () {
 		//Find all the sub menus and hide them 
-		container = transform.FindChild ("Container").GetComponent <RectTransform> ();
+		container = transform.Find ("Container").GetComponent <RectTransform> ();
 		isOpen = false;
 	}
 	
