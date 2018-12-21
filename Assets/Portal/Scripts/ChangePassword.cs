@@ -46,7 +46,7 @@ public class ChangePassword : MonoBehaviour {
 
     //Connect
 	private IEnumerator changePass() {
-		string url = "http://pudpie.com/changePassword.php";
+		string url = "https://evancole.io/changePassword.php";
 		WWWForm form = new WWWForm ();
 		form.AddField ("password", inputText.text);
 		form.AddField ("username", GameData.Prefs.username);

@@ -30,7 +30,7 @@ public class DeleteUser : MonoBehaviour {
 
 	private IEnumerator deleteUser() {
         //Create the form and submit it to the server
-		string url = "http://pudpie.com/deleteuser.php";
+		string url = "https://evancole.io/deleteuser.php";
 		WWWForm form = new WWWForm ();
 		form.AddField ("username", inputText.text);
 		WWW result = new WWW(url, form);

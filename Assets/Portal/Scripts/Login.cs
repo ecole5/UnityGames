@@ -44,7 +44,7 @@ public class Login : MonoBehaviour {
 		status.text = "Connecting to network";
 
 		//Connect to the server and make request
-		string url = "http://pudpie.com/authenticateV2.php";
+		string url = "https://evancole.io/authenticateV2.php";
 		string secretKey = "DrOuda";
 
 		string hash = Utility.newHash (secretKey);

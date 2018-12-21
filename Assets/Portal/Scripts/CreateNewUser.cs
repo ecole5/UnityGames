@@ -22,7 +22,7 @@ public class CreateNewUser : MonoBehaviour {
 	}
 
 	private IEnumerator newUser() {
-		string url = "http://pudpie.com/newuser.php";
+		string url = "https://evancole.io/newuser.php";
 		WWWForm form = new WWWForm ();
         
         //Create form and post to server

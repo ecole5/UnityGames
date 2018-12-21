@@ -14,7 +14,7 @@ public class PortalHistory : MonoBehaviour {
 		WWWForm form = new WWWForm();
 		form.AddField("username", temp[i].username);
 		//Post the request and receive the results
-		WWW result = new WWW("http://pudpie.com/accountStatus.php", form);
+		WWW result = new WWW("https://evancole.io/accountStatus.php", form);
 		yield return result;
 			wholeText += "\nUsername: " + temp[i].username + "\n";
 			wholeText  += "Date: " + temp[i].date + "\n";

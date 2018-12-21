@@ -48,7 +48,7 @@ public class GameData: MonoBehaviour
 	//Load data from server
 	private IEnumerator loadServerData(){
 		//Send username to load script on server
-		string url = "http://pudpie.com/loadV2.php?";
+		string url = "https://evancole.io/loadV2.php?";
 		string post = url + "username=" + username;
 		WWW result = new WWW (post);
 		yield return result;
@@ -71,7 +71,7 @@ public class GameData: MonoBehaviour
 		WWWForm form = new WWWForm();
 		form.AddField("username", username);
 		//Post the request and receive the results
-		WWW result2 = new WWW("http://pudpie.com/accountStatus.php", form);
+		WWW result2 = new WWW("https://evancole.io/accountStatus.php", form);
 		yield return result2;
 		accountType = result2.text;
 
@@ -98,7 +98,7 @@ public class GameData: MonoBehaviour
 
 	//Saves data to the server
 	private IEnumerator saveDataServer(SpacePrefs t1, PortalPrefs t2, History apple, History portal, History space, History ninja, History dino) {
-		string url = "http://pudpie.com/saveV2.php";
+		string url = "https://evancole.io/saveV2.php";
 		WWWForm form = new WWWForm ();
         //Serialize all the objects and add them to a form 
 		form.AddField ("spacePrefs", JsonUtility.ToJson (t1));
@@ -118,7 +118,7 @@ public class GameData: MonoBehaviour
 	private IEnumerator newUser(){
 		SpacePrefs t1 = new SpacePrefs();
 		PortalPrefs t2 = new PortalPrefs ();
-		string url = "http://pudpie.com/newuser.php?";
+		string url = "https://evancole.io/newuser.php?";
 		string post = url + "spacePrefs=" + JsonUtility.ToJson(space) + "&portalPrefs=" + JsonUtility.ToJson(portal) + "&username=" + username;
 		WWW result = new WWW(post);
 		yield return result;

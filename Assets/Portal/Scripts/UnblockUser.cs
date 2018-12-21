@@ -24,7 +24,7 @@ public class UnblockUser: MonoBehaviour {
 		
 
 	private IEnumerator unblockUser() {
-		string url = "http://pudpie.com/unblock.php";
+		string url = "https://pudpie.com/unblock.php";
 		WWWForm form = new WWWForm ();
 		form.AddField ("username", inputText.text);
 		WWW result = new WWW(url, form);
